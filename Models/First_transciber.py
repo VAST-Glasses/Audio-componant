@@ -165,7 +165,6 @@ def main():
         responses = client.streaming_recognize(streaming_config, requests)
 
         # Now, put the transcription responses to use.
-        print('I got here')
         listen_print_loop(responses)
 
 
